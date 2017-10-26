@@ -15,5 +15,5 @@ end
 
 
 my_each(my_array) do |word|
-  puts word
+   word
 end
