@@ -7,6 +7,6 @@ def my_each(array) # put argument(s) here
     end
     array
   else
-    puts "Missing Block"
+    "Missing Block"
   end
 end
