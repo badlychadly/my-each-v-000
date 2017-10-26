@@ -1,3 +1,5 @@
+my_array = [1,2,3,4]
+
 def my_each(array) # put argument(s) here
   if block_given?
     i = 0
@@ -12,6 +14,6 @@ def my_each(array) # put argument(s) here
 end
 
 
-my_each(words) do |word|
+my_each(my_array) do |word|
   puts word
 end
