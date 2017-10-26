@@ -15,5 +15,5 @@ end
 
 
 my_each(my_array) do |word|
-   word
+   word * word
 end
